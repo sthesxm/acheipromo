@@ -1,11 +1,78 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://chat.whatsapp.com/Jgxu0vMFst5DQeLNlIKCqb">
-    <title>Redirecionando...</title>
-  </head>
-  <body>
-    <p>Redirecionando para o grupo exclusivo...</p>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Entre no Grupo VIP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1652603255345461');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1652603255345461&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      font-family: Arial, sans-serif;
+    }
+
+    .btn {
+      padding: 20px 50px;
+      font-size: 1.4rem;
+      color: white;
+      background: #128C7E;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.2);
+      transition: left 0.5s ease;
+    }
+
+    .btn:hover {
+      background: #0d6e5c;
+      transform: scale(1.05);
+    }
+
+    .btn:hover::before {
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <button class="btn" onclick="fbq('track', 'Lead'); window.location.href='https://chat.whatsapp.com/Jgxu0vMFst5DQeLNlIKCqb?mode=r_t';">
+    🚀 Entrar no Grupo VIP do WhatsApp
+  </button>
+</body>
 </html>
